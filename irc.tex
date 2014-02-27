@@ -1,0 +1,87 @@
+\documentclass{beamer}
+
+\usetheme{Berlin}
+
+\usepackage{default}
+
+\title{IRC - Internet Relay Chat}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\section{Introduction}
+
+\begin{frame}{IRC}
+  \begin{itemize}
+  \item What is IRC?
+  \end{itemize}
+  IRC (Internet Relay Chat) provides a way of communicating in real time with people from all over the world. It consists of various separate networks (or “nets”) of IRC servers, machines that allow users to connect to IRC. 
+\end{frame}
+
+\section{Basics}
+
+\begin{frame}{Client}
+  \begin{itemize}
+  \item Unix -- irssi, xchat, weechat, hexchat etc.
+  \item Windows -- hexchat, mirc, xchat (not free) etc.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Channels}
+  Once connected to an IRC server on an IRC network, you will usually join one or more “channels” and converse with others there.
+  \begin{itemize}
+  \item \#navya on freenode. (Channel names usually begin with a \#)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Terminology}
+  \begin{itemize}
+  \item /join \#coolness -- You join the channel \#coolness.
+  \item hello everyone  -- Everyone on \#coolness sees hello everyone. (You need not type in your own nick.)
+  \item /me needs to shut up -- Everyone in \#coolness sees * yournick needs to shut up.
+  \item /leave \#coolness -- You leave the channel.
+  \item /whois rejuvyesh -- You get some info about rejuvyesh or whatever nickname you entered.
+  \item /nick newnick -- Changes your nick to ``newnick''
+  \item /msg Tomm hi there. -- Only Tomm sees your message (you don’t need to be on the same channel for this to work).
+  \item /quit good night! -- You quit IRC completely, with the parting comment so that others see ``Signoff: yournick (good night!)''.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Advice}
+  \begin{itemize}
+  \item Etiquette --  Typing in all caps, LIKE THIS, is considered “shouting” and should be avoided. Likewise, do not repeat yourself or otherwise “flood” the channel with many lines of text at once.
+  \item Registration -- On many networks. Services exist for the registration of nicknames and/or channels. Nickname registration allows you to ``own'' a nickname, and prevent others from using it on that network.
+  \end{itemize}
+\end{frame}
+
+ \begin{frame}{Registration}
+   \begin{itemize}
+    \item Join the freenode network -- /server chat.freenode.net
+    \item Choose a user name or nick --  /nick NewNick 
+    \item Register -- /msg nickserv register name password
+    \item Check your e-mail and verify your account.
+    \item Identify with Nickserv -- /msg nickserv identify name password
+   \end{itemize}
+ \end{frame}
+\section{Conclusion}
+
+\begin{frame}{Thank You}
+  Questions?
+\end{frame}
+
+\end{document}
